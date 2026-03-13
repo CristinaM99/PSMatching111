@@ -13,9 +13,7 @@ for(d in 1:1500){
   pz_centerA_cs_copy <- data.frame(pz_centerA_cs)
   n_a <- nrow(pz_centerA_cs_copy)
   pz_centerB_cs_copy <- data.frame(pz_centerB_cs)
-  n_b <- nrow(pz_centerB_cs_copy)
   pz_centerC_cs_copy <- data.frame(pz_centerC_cs)
-  n_c <- nrow(pz_centerC_cs_copy)
   
   # all (available) perimeters computation
   perim <- data.frame()
@@ -29,8 +27,10 @@ for(d in 1:1500){
   id_c_select <- data.frame()
   for(i in 1:n_a){
     a <- pz_centerA_cs_copy[pz_centerA_cs_copy$tempID_a==i,]
+    n_b <- nrow(pz_centerB_cs_copy)
     for(j in 1:n_b){
       b <- pz_centerB_cs_copy[pz_centerB_cs_copy$tempID_B==j,]
+      n_c <- nrow(pz_centerC_cs_copy)
       for(k in 1:n_c){
         c <- pz_centerC_cs_copy[pz_centerC_cs_copy$tempID_c==k,]
         abc <- cbind(a,b,c)
