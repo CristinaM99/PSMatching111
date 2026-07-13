@@ -1,0 +1,35 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA simul1
+
+
+NOTE: Wrote simul1 (100 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA sim01
+
+
+NOTE: Read 100 rows from simul1.
+NOTE: Wrote sim01 (71 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC LOGISTIC data=sim01
+
+NOTE: Using Python statsmodels.api.Logit version 0.14.6
+NOTE: ODS plot written: logistic_oddsratio.spec.json
+NOTE: ODS plot written: logistic_roc.spec.json
+NOTE: PROC LOGISTIC ODS Graphics generated.
+NOTE: PROC LOGISTIC completed. Results written to: ./ods_output/logistic_results.spec.json
+NOTE: DATA OR_unmatched01
+
+
+NOTE: Read 1 rows from OR_unmatched01.
+NOTE: Wrote OR_unmatched01 (1 rows, 1 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=OR_unmatched01
+
+NOTE: PROC PRINT completed: 1 observations printed, 1 variables

@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_common_support_symputx",
+  "source_file": "data_generation.sas",
+  "source_blob_sha": "05a50716a4595f8a86bcfe7bd485e84a6337fce5",
+  "source_commit": "d898fd7069802a12f1b2e492b93325743b436e98",
+  "notes": "Common-support/caliper derivation (three-way-matching block): nested PROC MEANS output datasets + CALL SYMPUTX lifting pooled bounds into macro vars; seeded probability draw as input."
+}

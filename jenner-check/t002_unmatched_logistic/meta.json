@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_unmatched_logistic",
+  "source_file": "data_generation.sas",
+  "source_blob_sha": "05a50716a4595f8a86bcfe7bd485e84a6337fce5",
+  "source_commit": "d898fd7069802a12f1b2e492b93325743b436e98",
+  "notes": "Unmatched treatment-effect estimation (tab_unmatchedB block): PROC LOGISTIC on center 0-vs-1 subcohort with ods output OddsRatios; seeded DGP draw as input."
+}

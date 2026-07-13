@@ -1,0 +1,49 @@
+                                     
+---------------------------  --------
+Number of Observations Read        71
+Number of Observations Used        71
+
+            Response Profile            
+      Probability modeled is Y='1'      
+
+Ordered Value  Y         Total Frequency
+-------------  --------  ---------------
+            1  0                      51
+            2  1                      20
+
+  Class Level Information   
+
+Class       Levels  Values  
+--------  --------  --------
+center           2  0 1     
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+The LOGISTIC Procedure
+Response Variable: Y
+
+Criterion     Value
+---------  --------
+AIC          86.141
+-2 Log L     82.141
+SC           90.666
+
+            Analysis of Maximum Likelihood Estimates            
+
+Parameter  Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+---------  --------  --------------  ---------------  ----------
+Intercept   -1.2993          0.3761          11.9375      0.0006
+center       0.8068          0.5365           2.2611      0.1327
+
+                     Odds Ratio Estimates                     
+
+Effect    Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+--------  --------------  -----------------  -----------------
+center             2.241              0.783              6.414
+
+                                          Unmatched odds ratio, center 1 vs 0                                           
+
+  Obs  OR_unmatched01
+    1    2.2407407407

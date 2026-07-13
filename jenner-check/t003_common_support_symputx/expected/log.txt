@@ -1,0 +1,34 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA out_mlr_wide
+
+
+NOTE: Wrote out_mlr_wide (100 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC MEANS
+NOTE: Output dataset common_support has 4 observations and 5 variables.
+NOTE: PROC MEANS statement used.
+NOTE: PROC MEANS
+NOTE: Output dataset common_support2 has 1 observations and 10 variables.
+NOTE: PROC MEANS statement used.
+NOTE: DATA common_support2
+
+
+NOTE: Read 1 rows from common_support2.
+NOTE: Wrote common_support2 (1 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA _null_
+
+Common-support bounds for p1: min=0.0970175995 max=0.9771969412
+
+NOTE: Wrote _null_ (0 rows, 0 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=common_support
+
+NOTE: PROC PRINT completed: 4 observations printed, 5 variables

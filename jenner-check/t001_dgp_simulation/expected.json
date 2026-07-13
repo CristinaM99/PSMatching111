@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-13T08:54:42Z",
+  "_captured_run_id": "r_12ff748f8e284cee8727710fcce195cb",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote simul1 (100 rows, 22 columns).",
+    "NOTE: PROC FREQ statement used.",
+    "NOTE: PROC MEANS statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

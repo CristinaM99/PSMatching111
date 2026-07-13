@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_dgp_simulation",
+  "source_file": "data_generation.sas",
+  "source_blob_sha": "05a50716a4595f8a86bcfe7bd485e84a6337fce5",
+  "source_commit": "d898fd7069802a12f1b2e492b93325743b436e98",
+  "notes": "Data generating process (%simulation DATA step): rand-based simulation of 3-center cohort with 5 continuous + 5 dichotomous confounders and a log-linear outcome; libname->WORK, seeded with streaminit, followed by PROC FREQ + PROC MEANS."
+}
